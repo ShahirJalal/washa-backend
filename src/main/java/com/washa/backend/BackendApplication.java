@@ -1,4 +1,3 @@
-// src/main/java/com/washa/WashaApplication.java
 package com.washa.backend;
 
 import org.springframework.boot.SpringApplication;
