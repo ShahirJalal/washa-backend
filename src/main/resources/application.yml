@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: backend
+  profiles:
+    active: dev
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8081
+
+jwt:
+  secret: washaSuperSecretKey
+  expiration: 86400000
